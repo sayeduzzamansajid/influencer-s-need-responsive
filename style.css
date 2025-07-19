@@ -1,0 +1,76 @@
+.header{
+    background-image: url(influencer-gear/images/Circle\ design.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin:10px 150px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: #2a168faa;
+}
+.menu{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.src-curt{
+    height: 30px;
+    width: 30px;
+}
+.menu a{
+    text-decoration: none;
+}
+.front{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+.text{
+    height: 270px;
+    width: 582px;
+    justify-content: center;
+
+}
+.text h1{
+    color: #3A3A3A;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text p{
+    color: #3A3A3A;
+    font-size: 25px;
+    
+    
+}
+.ing{
+    height: 414px;
+    width: 440px;
+    height: 110px;
+}
+.btn ,.btn a{
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn:hover{
+    transform: scale(1.05);
+    color: #E02C6D;
+    background-color: aliceblue;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 90px auto;
+    padding: 20px;
+    border: 1px solid rgba(219, 219, 220, 0.383);
+}
