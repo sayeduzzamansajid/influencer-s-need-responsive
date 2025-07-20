@@ -8,6 +8,11 @@
     display: flex;
     justify-content: space-between;
 }
+.body{
+    display: flex;
+    flex-direction: column;
+    
+}
 .logo{
     font-size: 30px;
     color: #2a168faa;
@@ -73,4 +78,72 @@
     margin: 90px auto;
     padding: 20px;
     border: 1px solid rgba(219, 219, 220, 0.383);
+}
+.card{
+    width: 304px;
+    height: 450px;
+    border: 1px solid rgb(219, 210, 210);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(222, 217, 217, 0.775);
+    background-color: rgba(219, 218, 218, 0.676);
+}
+.card:hover{
+    transform: scale(1.02);
+    background-color: white;
+}
+.star{
+    height: 15px;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1147px;
+    margin: 0 auto;
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature{
+    width: 610px;
+    height: 224px;
+}
+
+.al, .feature{
+    margin: 0 auto;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B032D;
+    height: 250px;
+    text-align: center;
+}
+.footer h1{
+    color: white;
+}
+.footer p{
+    color: white;
 }
